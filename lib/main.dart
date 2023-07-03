@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/AccountTest.dart';
+import 'package:untitled/AccountUI.dart';
 import 'package:untitled/BottomNavigation.dart';
 import 'package:untitled/Create.dart';
 import 'package:untitled/DashBoard.dart';
+import 'package:untitled/EditProfile.dart';
 import 'package:untitled/HomePage.dart';
-import 'package:untitled/HomeScreen.dart';
 import 'package:untitled/LoginOTP.dart';
 import 'package:untitled/LoginScreen.dart';
 import 'package:untitled/OTP.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'CloseCalls Game LLP',
-      home: DropDown(),
+      home: EditProfile(),
     );
   }
 
